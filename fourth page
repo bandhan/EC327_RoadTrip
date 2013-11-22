@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/fourth_screen">
+
+<TextView
+    android:id="@+id/fourth_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:text="Enter your Information"
+    />
+<TextView
+    android:id="@+id/total_travelers"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="30dp"
+    android:text="Total Travelers :"
+    />
+<EditText
+    android:id="@+id/travelers_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/total_travalers"
+    android:hint="Edit..."
+    />
+<TextView
+    android:id="@+id/mpg"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="total_travelers"
+    android:layout_alignLeft="total_travelers"
+    android:text="mpg of your car :"
+    />
+<EditText
+    android:id="@+id/mpg_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/mpg"
+    android:hint="Edit..."
+    />
+<Button
+    android:id="@+id/mpg_help"
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/mpg_edit"
+    android:text="help"
+    />
+<TextView
+    android:id="@+id/gas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="mpg"
+    android:layout_alignLeft="mpg"
+    android:text="Cost of gas per gallon :"
+    />
+<EditText
+    android:id="@+id/gas_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/gas"
+    android:hint="Edit..."
+    />
+<Button
+    android:id="@+id/gas_help"
+    
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/gas_edit"
+    android:text="help"
+    />
+<TextView
+    android:id="@+id/nights"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="gas"
+    android:layout_alignLeft="gas"
+    android:text="Nights expected to stay :"
+    />
+<EditText
+    android:id="@+id/nights_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/nights"
+    android:hint="Edit..."
+    />
+<TextView
+    android:id="@+id/hotel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="nights"
+    android:layout_alignLeft="nights"
+    android:text="Cost of hotel per person per day :"
+    />
+<EditText
+    android:id="@+id/hotel_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/hotel"
+    android:hint="Edit..."
+    />
+<TextView
+    android:id="@+id/dining"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="hotel"
+    android:layout_alignLeft="hotel"
+    android:text="cost of dining per person per day :"
+    />
+<EditText
+    android:id="@+id/dining_edit"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/dining"
+    android:hint="Edit..."
+    />
+<Button
+    android:id="@+id/fourth_back"
+    android:layout_alignParentLeft="true" 
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Back"
+    />
+<Button
+    android:id="@+id/fourth_next"
+    android:layout_alignParentRight="true" 
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Next"
+    />
+</RelativeLayout>
