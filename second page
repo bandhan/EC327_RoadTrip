@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/second_screen">
+
+<TextView
+    android:id="@+id/second_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:text="Choose Your College"
+    />
+  <Button
+    android:id="@+id/second_back"
+    android:layout_alignParentLeft="true" 
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Back"
+    />
+
+  <Button
+      android:id="@+id/PSU"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/URI"
+      android:layout_below="@+id/Yale"
+      android:layout_marginTopp="50dp"
+      android:text="PSU" />
+
+  <Button
+      android:id="@+id/Yale"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignRight="@+id/Amherst"
+      android:layout_below="@+id/second_header"
+      android:text="Yale" />
+
+  <Button
+      android:id="@+id/UVM"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/PSU"
+      android:layout_toLeftOf="@+id/Amherst"
+      android:text="UVM" />
+
+  <Button
+      android:id="@+id/Providence"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/PSU"
+      android:layout_below="@+id/Amherst"
+      android:layout_marginLeft="31dp"
+      android:marginLeft="30dp"
+      android:text="Providence" />
+
+  <Button
+      android:id="@+id/Amherst"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_alignLeft="@+id/second_back"
+      android:layout_below="@+id/PSU"
+      android:layout_marginLeft="28dp"
+      android:layout_marginTop="22dp"
+      android:text="Amherst" />
+
+  <Button
+      android:id="@+id/URI"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_above="@+id/Amherst"
+      android:layout_centerHorizontal="true"
+      android:text="URI" />
+
+  </RelativeLayout>
