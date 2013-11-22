@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:id="@+id/fifth_screen">
+
+<TextView
+    android:id="@+id/fifth_header"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_centerHorizontal="true"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:text="Your Travel Information"   
+    />
+<TextView
+    android:id="@+id/total_distance"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="30dp"
+    android:text="Total Distance :"
+    />
+<TextView
+    android:id="@+id/total_distance_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/total_distance"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/cost_on_gas"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/total_distance"
+    android:layout_alignLeft="@+id/total_distance"
+    android:text="Total Cost on Gas :"
+    />
+<TextView
+    android:id="@+id/cost_on_gas_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/cost_on_gas"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/gas_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/cost_on_gas"
+    android:layout_alignRight="@+id/total_distance"
+    android:text="per person :"
+    />
+<TextView
+    android:id="@+id/gas_person_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/gas_person"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/cost_on_hotel"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/gas_person"
+    android:layout_alignLeft="@+id/total_distance"
+    android:text="Total Cost on Hotel :"
+    />
+<TextView
+    android:id="@+id/cost_on_hotel_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/cost_on_hotel"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/hotel_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/cost_on_hotel"
+    android:layout_alignRight="@+id/cost_on_hotel"
+    android:text="per person :"
+    />
+<TextView
+    android:id="@+id/hotel_person_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/hotel_person"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/cost_on_dining"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/hotel_person"
+    android:layout_alignLeft="@+id/total_distance"
+    android:text="Total Cost on Dining :"
+    />
+<TextView
+    android:id="@+id/cost_on_dining_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/cost_on_dining"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/dining_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/cost_on_dining"
+    android:layout_alignRight="@+id/cost_on_dining"
+    android:text="per person :"
+    />
+<TextView
+    android:id="@+id/dining_person_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/dining_person"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/final_cost"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/dining_person"
+    android:layout_alignLeft="@+id/total_distance"
+    android:text="Your Final Total Cost :"
+    />
+<TextView
+    android:id="@+id/final_cost_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/final_cost"
+    android:text=??????
+    />
+<TextView
+    android:id="@+id/cost_person"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_below="@+id/final_cost"
+    android:layout_alignRight="@+id/fianl_cost"
+    android:text="per person :"
+    />
+<TextView
+    android:id="@+id/cost_person_text"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:layout_toRightof="@+id/cost_person"
+    android:text=??????
+    />
+<Button
+    android:id="@+id/fifth_back"
+    android:layout_alignParentLeft="true" 
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Back"
+    />
+<Button
+    android:id="@+id/fifth_next"
+    android:layout_alignParentRight="true" 
+    android:layout_alignParentBottom="true"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" 
+    android:text="Next"
+    />
+</RelativeLayout>
